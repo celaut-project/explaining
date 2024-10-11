@@ -6,7 +6,7 @@ Based on the architecture developed earlier, if a client wants to use a service,
 
 To create a web service that can be connected to a frontend in a browser, a new service is required to handle incoming requests from clients and deploy and use the classification service. This service, as shown in *Figure 118*, can be understood as a bridge between the "traditional web" and a distributed service network.
 
-![cealut_bridge_to_common_web](assets/188c27-cealut_bridge_to_common_web.excalidraw.svg)*__Figure 118__: Celaut service bridge to a common web pattern*
+![cealut_bridge_to_common_web](188c27-cealut_bridge_to_common_web.excalidraw.svg)*__Figure 118__: Celaut service bridge to a common web pattern*
 
 <br>
 
