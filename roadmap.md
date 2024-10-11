@@ -4,4 +4,4 @@
 
 <br>
 
-![Roadmap](assets/1a0e-roadmap.excalidraw.svg)
+![Roadmap](1a0e-roadmap.excalidraw.svg)
