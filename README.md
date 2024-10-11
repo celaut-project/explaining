@@ -112,14 +112,3 @@ This section covers the past and future development of the project by the initia
 [Link to the roadmap](roadmap.md)
 
 <br>
-
-
-## Links
-
-[Proof of Concept: CELAUT over IPFS, Feb '21](https://discuss.ipfs.tech/t/proof-of-concept-interplanetary-service-system/10245)
-
-[Ergo-forum conversation, Aug '23](https://www.ergoforum.org/t/artifical-economic-intelligence-on-ergo-blockchain/4429/2)
-
->IPFS or Ergo are not platforms on which the architecture is based, although both are aligned with the CELAUT principles.
-
-<br>
