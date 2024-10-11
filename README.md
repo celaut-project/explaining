@@ -1,4 +1,7 @@
-# faq
+# Frequently Asked Questions
+
+For any questions not covered here, submit them in the **Issues** section of this repository.
+
 
 ### How do multiple clients make requests to a specific service?
 
