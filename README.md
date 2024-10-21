@@ -32,8 +32,6 @@ This can lead to problems such as the size of the specification, but these probl
 [pee-rpc protocol](https://github.com/pee-rpc-protocol/pee-rpc#using-blocks-buffer-containers)
 does.
 
->Using Dockerfiles to define a service would not be possible to verify the authenticity of the container, since the Dockerfile defines how to build the container and, generally, are download instructions from central repositories, and they can change the result over the time. A node can accept a specification that uses Dockerfiles, but it would not be in line with the principles of the architecture.
-
 <br>
 
 
