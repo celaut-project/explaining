@@ -2,8 +2,6 @@
 
 This tutorial will guide you through the necessary steps to understand and execute the demo-service in the CELAUT architecture, exploring its main functionalities of communicating with a node, managing resources, and utilizing child services.
 
-[![Video tutorial](https://img.youtube.com/vi/kKyeUSQY32E/0.jpg)](https://youtu.be/kKyeUSQY32E)
-
 
 ## Step 1: Architecture of demo-service repository
 
@@ -132,3 +130,6 @@ In this code:
 - `min` can be used to indicate a minimum value, but in this case, it is set to `0`.
 
 The node responds with the new `mem_limit` and `gas_amount` values, which are updated in the `resources` and `gas_amount` variables of `demo-service`. These values reflect the updated state of the resources and are displayed in real-time in the HTML interface.
+
+## Video
+[![Video tutorial](https://img.youtube.com/vi/kKyeUSQY32E/0.jpg)](https://youtu.be/kKyeUSQY32E)
