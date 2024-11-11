@@ -45,7 +45,7 @@ To compile the service on a node, follow these steps:
    nodo compile <demo-service-path>/
    ```
 
-   This converts the project structure and files into a binary specification that the node can share and execute on other nodes in the CELAUT network.
+   This converts the project structure and files into a binary specification that the node can share and execute with other nodes in the CELAUT network.
 
 2. **Distribution**
    Once compiled, the binary specification of the service can be sent and executed on any node in the network, without the need for additional installations.
