@@ -141,13 +141,18 @@ The node responds with the new `mem_limit` and `gas_amount` values, which are up
 ## FAQ
 
 **How does the demo-service communicate with the CELAUT node to manage resources?**  
+
 The communication between the demo-service and the CELAUT node is established through various gRPC methods. This protocol enables efficient resource management requests and responses between the service and the node. Additionally, to simplify the complexity of handling these resource requests, a CELAUT library can be used on the service side, abstracting away much of the underlying gRPC logic.
 
 **What role do the service_hash and service_uri play in the management of service instances within CELAUT?**  
+
 When a node receives a request to execute a service, it determines the optimal way to fulfill the request—by virtualizing a container for that service instance, either locally or by requesting it from another node. The node assigns a unique identifier (similar to a token) for each instance, which only the requesting client knows. This token is required for further operations, such as terminating the service instance, providing a layer of privacy and security in service instance management.
 
+
 **How does the demo-service manage memory, and what is the significance of gas_amount in the system?**  
+
 The `gas_amount` is a custom unit used by each node to measure resource costs. When a node introduces itself to other nodes, it specifies the gas rate per unit value (e.g., 10 gas/ERG) and resource costs, like memory (e.g., 1 MB per minute may cost one gas unit). This pricing allows nodes to decide whether to execute a service locally or offload it to another node, factoring in the cost of resources. Clients acquire gas by making a payment to a node's designated payment address, which might vary based on payment platform (e.g., 1 gas/BTC, 0.0001 gas/ERG), allowing flexibility in payment methods.
 
 **How is the demo-service distributed and executed across other nodes within the CELAUT network?**  
+
 In the CELAUT ecosystem, "service" can refer to two things: the service specification, a binary containing everything necessary for a node to virtualize and communicate with a service instance; or an active instance of that service. Nodes can share service specifications with each other to ensure compatibility. For example, if Node A requests Node B to execute a service, Node A sends the specification of the service along with the request, allowing Node B to execute it as needed.
