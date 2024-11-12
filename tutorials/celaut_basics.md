@@ -2,6 +2,7 @@
 
 This tutorial will guide you through the necessary steps to understand and execute the demo-service in the CELAUT architecture, exploring its main functionalities of communicating with a node, managing resources, and utilizing child services.
 
+> For a deeper understanding of the concepts, please read [paradigm repo](https://github.com/celaut-project/paradigm/blob/master/README.md).
 
 ## Step 1: Architecture of demo-service repository
 
