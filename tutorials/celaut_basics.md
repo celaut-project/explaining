@@ -135,7 +135,7 @@ In this code:
 The node responds with the new `mem_limit` and `gas_amount` values, which are updated in the `resources` and `gas_amount` variables of `demo-service`. These values reflect the updated state of the resources and are displayed in real-time in the HTML interface.
 
 ## Video
-[![Video tutorial](https://img.youtube.com/vi/kKyeUSQY32E/0.jpg)](https://youtu.be/kKyeUSQY32E)
+[![Video tutorial](https://www.dailymotion.com/thumbnail/video/k60aSTbp61bnq3Cj5Ce)](https://dai.ly/k60aSTbp61bnq3Cj5Ce)
 
 
 ## FAQ
