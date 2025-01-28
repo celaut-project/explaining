@@ -14,8 +14,8 @@ demo-service is a service that interacts with a CELAUT node to:
 
 The structure of demo-service includes configuration files in the `.service` directory, a Dockerfile, and the main code in `start.py`.
 
-- The demo-service code can be found on [Demo Service](https://github.com/celaut-project/demo-service).
-- The dependency can be found on [Tiny Service](https://github.com/celaut-project/libraries).
+- The demo-service code can be found on [Demo Service]().
+- The dependency can be found on [Tiny Service]().
 
 > Tiny service is a test service designed to explore inter-service dependency handling. Written in Rust, the service is a simple HTTP server that responds to GET requests with a randomly generated name, providing a straightforward way to test and demonstrate the dependency mechanism among services.
 
